@@ -5,30 +5,51 @@
         <title> Контакты :] </title>
         <style>
             body{
-             background-color: #ffd3ff; /* Web page background color */
-            }
-            h1 {
-             background-color: RGB(226, 186, 232); /* Header background color */
-            }
-            p {
-             background-color: purple; /* Background color under paragraph text */
-             color:white; /* Text color */
-            }
+           background-color: #ffd3ff; /* Web page background color */
+          }
+          h1 {
+           background-color: RGB(226, 186, 232); /* Header background color */
+          }
+          p {
+           background-color: purple; /* Background color under paragraph text */
+           color:purple; /* Text color */
+          }
+         </style>
+         <style>
+          .warn {
+           background: #ffd3ff(255, 255, 255, 0.801);
+           padding: 10px;
+          }
+          .fadeInLeft {
+           animation-name: fadeInLeft;
+           animation-duration: 2s;
+          }
+          @keyframes fadeInLeft {
+           from {
+            opacity: 0;
+            transform: translateX(-2000px);
+           }
+           to {
+            opacity: 1;
+            transform: none;
+           }
+          }
            </style>
     </head>
     <body>
         <br> 
         <h1><center>Контакты</center></h1>
         <br>
-        <a href="./index.html"><center> Главная </center></a>
-        <a href="./contact.html"><center> Контакты </center></a>
-        <a href="./photo.html"><center> Фотографии </center></a>
+        <a class="warn fadeInLeft" href="./index.html"><center> Главная </center></a>
+        <a class="warn fadeInLeft" href="./contact.html"><center> Контакты </center></a>
+        <a class="warn fadeInLeft" href="./photo.html"><center> Фотографии </center></a>
         <br>
         <br>
         <h2>
             Контакты хозяина :
             <br>
             fearless.sasha1@gmail.com
+            <br>
             +380684075227
             <br>
             <br>
